@@ -1,0 +1,1002 @@
+$font_1:'Montserrat';
+$font_b: 'sans-serif';
+$font_m:'montserratsemibold';
+$font_t:'montserratextrabold';
+$font_a:'montserratmedium';
+$font_j:'montserratregular';
+$gr: #333333;
+$b: black;
+$w: white;
+$r:#fb5367;
+$g: #585858;
+$d:#213f59;
+
+
+
+@import 'variables';
+
+@font-face {
+	font-family: 'open_sanssemibold';
+	src: url('../fonts/2212-webfont.woff2') format('woff2'),
+	url('../fonts/2212-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'montserratsemibold';
+	src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+	url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'montserratextrabold';
+	src: url('../fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+	url('../fonts/montserrat-extrabold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'montserratmedium';
+	src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+	url('../fonts/montserrat-medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'montserratregular';
+	src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+	url('../fonts/montserrat-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+}
+
+header {
+	height: 78px;
+	width: 100%;
+	padding-top: 2%;
+	background-color: #3190b0;
+	font-size: 18px;
+	font-family: $font_1, $font_b;
+	color: $w;
+	text-align: right;
+	font-weight: 400;
+}
+
+.call {
+	height: 57px;
+	width: 78%;
+}
+
+.without {
+	height: 57px;
+	width: 22%;
+	text-align: center;
+}
+
+menu {
+	height: 33px;
+	width: 100%;
+	padding-top: 1%;
+}
+
+menu a {
+	height: 37px;
+	display: block;
+	font-family: $font_m, $font_b;
+	color: black;
+	font-size: 16px;
+	text-align: right;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+menu a:hover,
+.for_children a:hover,
+.lets a:hover,
+.arrow a:hover,
+.last a:hover,
+.control-prev-top:hover,
+.control-next-top:hover {
+	opacity: 0.4;
+}
+
+.home_staff {
+	width: 39%;
+}
+
+.children_staff {
+	width: 14%;
+}
+
+.about_us {
+	width: 6%;
+}
+
+.reviews {
+	width: 8%;
+}
+
+.interesting {
+	width: 9%;
+}
+
+.vacanes {
+	width: 9%;
+}
+
+.contact {
+	width: 8%;
+}
+
+.wrapper_one {
+	height: auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(to bottom, #f5f6fa, #fafbff);
+	box-shadow: inset 0 0 10px #c9cbd2;
+}
+
+.personal {
+	height: auto;
+	width: 50%;
+	float: left;
+}
+
+.for_children {
+	height: 71px;
+	width: 80%;
+	float: left;
+	padding-top: 123px;
+	padding-left: 23%;
+}
+
+.for_children a {
+	padding-left: 5px;
+	font-family: $font_t, $font_b;
+	font-size: 42px;
+	color: $b;
+	border-left: 5px solid $r;
+}
+
+.slider_one {
+	height: auto;
+	width: 46%;
+	margin-top: 10x;
+	float: left;
+}
+
+.slider {
+	height: 552px;
+	margin-top: 10px;
+	margin-left: 16px;
+}
+
+.slider_one img,
+.slider_two img {
+	height: 100%;
+	width: 100%;
+}
+
+.control-prev-top {
+	color: $g;
+	font-family: $font_m, $font_b;
+	font-size: 14px;
+}
+
+.control-next-top {
+	margin-left: 5px;
+	color: $g;
+	font-family: $font_m, $font_b;
+	font-size: 14px;
+}
+
+.nurs {
+	height: 109px;
+	width: 60%;
+	float: left;
+	padding-left: 24%;
+	font-family: $font_a, $font_b;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.lets {
+	height: 216px;
+	width: 60%;
+	padding-left: 24%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.lets img {
+	float: left;
+}
+
+.lets p {
+	width: auto;
+	float: left;
+}
+
+.lets a {
+	height: 42px;
+	width: 59%;
+	padding-left: 9%;
+	padding-top: 24px;
+	display: block;
+	background-color: $r;
+	font-size: 18px;
+	font-family: $font_m, $font_b;
+	color: $w;
+	text-align: center;
+	border: 1px solid $r;
+	transition: all 0.3s ease;
+}
+
+.arrow {
+	height: 46px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.arrow a {
+	font-family: $font_m, $font_b;
+	font-size: 14px;
+	color: $gr;
+}
+
+.know_more {
+	width: 49%;
+	padding-left: 24%;
+	float: left;
+}
+
+.wrapper_two {
+	height: auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.parents_children {
+	width: 57%;
+	float: left;
+}
+
+.for_parents {
+	height: 96px;
+	width: 50%;
+	padding-top: 69px;
+	padding-left: 21%;
+	float: left;
+}
+
+.for_parents a {
+	padding-left: 5px;
+	font-family: $font_t, $font_b;
+	font-size: 30px;
+	color: $b;
+	border-left: 5px solid $r;
+}
+
+.slider_two {
+	height: auto;
+	width: 63%;
+	padding-left: 17%;
+	float: left;
+}
+
+.why {
+	width: 40%;
+	padding-top: 124px;
+	float: left;
+}
+
+.for_what {
+	height: 423px;
+	width: 100%;
+	padding-left: 2%;
+	font-family: $font_a, $font_b;
+	font-weight: bold;
+	font-size: 21px;
+}
+
+.question {
+	height: 49px;
+	width: 100%;
+	padding-left: 17%;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: $font_a, $font_b;
+}
+
+span {
+	color: $r;
+}
+
+.bottom-controls a {
+	font-family: $font_m, $font_b;
+	font-size: 14px;
+	color: $gr;
+	font-weight: bold;
+}
+
+.jcarousel-wrapper {
+	margin-top: 57px;
+}
+
+.wrapper_grid {
+	width: 620px;
+	display: grid;
+	padding-top: 25px;
+	grid-gap: 10px;
+	grid-template-columns: 55px 450px;
+	grid-template-rows: 118px 70px 90px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.6;
+	font-family: $font_j;
+	text-align: justify;
+}
+
+.last {
+	height: 216px;
+	width: 60%;
+	padding-left: 4%;
+	padding-top: 29px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.last img {
+	float: left;
+}
+
+.last p {
+	width: auto;
+	float: left;
+}
+
+.last a {
+	height: 37px;
+	width: 80%;
+	padding-top: 24px;
+	padding-left: 6%;
+	display: block;
+	background-color: $r;
+	text-align: center;
+	font-size: 18px;
+	font-family: $font_m, $font_b;
+	color: $w;
+	border: 1px solid $r;
+	transition: all 0.9s ease;
+}
+
+
+/*-----------------------------1334px-------------------------------------------------------------------*/
+
+@media(max-width:1334px) {
+
+	header {
+		height: 64px;
+	}
+	menu a {
+		font-size: 13px;
+	}
+	.personal {
+		width: 44%;
+	}
+	.for_children a {
+		font-size: 30px;
+	}
+	.for_children,
+	.nurs,
+	.lets,
+	.for_parents {
+		width: 80%;
+		padding-left: 6%;
+	}
+	.for_parents {
+		height: 42px;
+		padding-top: 20px;
+	}
+	.lets a {
+		width: 64%;
+		padding-left: 1%;
+		font-size: 16px;
+	}
+	.slider_two {
+		width: 100%;
+		padding-left: 1%;
+	}
+	.question,
+	.for_what {
+		width: auto;
+		padding-left: 0;
+		margin-left: 10px;
+	}
+	.wrapper_grid {
+		grid-template-columns: 31px 382px;
+		font-size: 12px;
+	}
+	.last a {
+		width: 95%;
+		font-size: 16px;
+	}
+	.last {
+		padding-left: 9%;
+	}
+	.lets {
+		height: 98px;
+	}
+	.why {
+		padding-top: 24px;
+	}
+	.slider {
+		height: 432px;
+	}
+	.slider_one img,
+	.slider_two img {
+		height: 95%;
+		width: 95%;
+	}
+}
+
+/*-----------------------------1080px-------------------------------------------------------------------*/
+
+@media(max-width:1080px) {
+
+	header {
+		height: 55px;
+		font-size: 14px;
+	}
+	.call {
+		width: 72%;
+	}
+	.home_staff {
+		width: 36%;
+	}
+	.slider_one img,
+	.slider_two img {
+		height: 80%;
+		width: 80%;
+	}
+	.for_children a {
+		font-size: 28px;
+	}
+	.for_children {
+		padding-top: 41px;
+	}
+	.for_parents a {
+		font-size: 26px;
+	}
+	.parents_children {
+		width: 60%;
+	}
+	.slider_two {
+		padding-left: 2%;
+	}
+	.question {
+		height: 52px;
+		padding-left: 1%;
+	}
+	.wrapper_grid {
+		padding-left: 1%;
+		grid-template-columns: 36px 328px;
+		font-size: 12px;
+	}
+	.lets {
+		height: 138px;
+	}
+	.last a {
+		width: 100%;
+		padding-left: 0;
+	}
+	.last {
+		padding-left: 20%;
+	}
+	.why {
+		width: 40%;
+	}
+	.slider {
+		height: 390px;
+	}
+	.slider_one img,
+		{
+		height: 95%;
+		width: 95%;
+	}
+	.slider_two img {
+		height: 80%;
+		width: 80%;
+	}
+}
+
+/*-----------------------------1024px-------------------------*/
+
+@media(max-width:1024px) {
+
+	header {
+		font-size: 15px;
+	}
+	menu {
+		padding-top: 2%;
+	}
+	.homme_staff {
+		width: 29%;
+	}
+	menu a {
+		font-size: 11px;
+	}
+	.lets img,
+	.last img {
+		display: none;
+	}
+	.lets a {
+		height: 30px;
+		width: 80%;
+		padding-top: 17px;
+		padding-left: 6%;
+	}
+	.lets {
+		height: 86px;
+		width: 72%;
+		padding-left: 8%;
+	}
+	.personal {
+		width: 51%;
+	}
+	.parents_children {
+		width: 44%;
+	}
+	.slider_one img,
+	.slider_two img {
+		height: 70%;
+		width: 70%;
+	}
+	.wrapper_grid {
+		grid-template-rows: 128px 56px 90px;
+		grid-template-columns: 55px 233px;
+	}
+	.for_children {
+		height: 41px;
+		width: 73%;
+		padding-top: 34px;
+		padding-left: 8%;
+	}
+	.for_children a {
+		font-size: 19px;
+	}
+	.nurs {
+		width: 80%;
+		padding-left: 10%;
+		font-size: 14px;
+	}
+	.for_parents {
+		padding-top: 34px;
+	}
+	.for_parents a {
+		font-size: 21px;
+	}
+	.question {
+		height: 37px;
+	}
+	.why {
+		padding-top: 25px;
+	}
+	.jcarousel-wrapper {
+		margin-top: 21px;
+	}
+	.last a {
+		width: 95%;
+		padding-left: 18%;
+	}
+	.know_more {
+		width: 39%;
+		padding-left: 10%;
+	}
+	.last {
+		padding-left: 25%;
+		padding-top: 0;
+		width: 67%;
+	}
+	.slider {
+		height: 290px;
+	}
+	.slider_one img,
+		{
+		height: 95%;
+		width: 95%;
+	}
+	.slider_two img {
+		height: 90%;
+		width: 90%;
+	}
+}
+
+/*-----------------------------768px-------------------------*/
+
+@media(max-width:768px) {
+
+	header {
+		height: 41px;
+		font-size: 12px;
+	}
+	.home_staff {
+		width: 22%;
+	}
+	.children_staff,
+		{
+		width: 20%;
+	}
+	.reviews {
+		width: 10%;
+	}
+	.interesting {
+		width: 15%;
+	}
+	.for_children a {
+		font-size: 17px;
+	}
+	.for_children {
+		height: 40px;
+		padding-top: 22px;
+	}
+	.know_more {
+		width: 37%;
+		padding-left: 8%;
+	}
+	.for_parents {
+		width: 90%;
+		padding-left: 1%;
+	}
+	.for_parents a {
+		width: 30%;
+		font-size: 16px;
+		border-left: 3px solid $r;
+	}
+	.parents_children {
+		width: 42%;
+	}
+	.last {
+		width: 70%;
+		padding-left: 7%;
+	}
+	.last a {
+		height: 27px;
+		padding-top: 12px;
+	}
+	.lets a {
+		padding-top: 11px;
+	}
+	.why {
+		width: 54%;
+	}
+	.wrapper_grid img {
+		display: none;
+	}
+	.for_what {
+		height: 333px;
+	}
+	.wrapper_grid {
+		grid-template-rows: 81px 45px 70px;
+		grid-template-columns: 0px 360px;
+	}
+	.slider {
+		height: 240px;
+	}
+	.slider_one img,
+	.slider_two img {
+		height: 95%;
+		width: 95%;
+	}
+}
+
+/*-----------------------------720px-------------------------*/
+
+@media(max-width:720px) {
+
+	.for_children a {
+		font-size: 17px;
+	}
+	.nurs {
+		height: 66px;
+		font-size: 12px;
+	}
+	.lets a {
+		padding-top: 6px;
+		font-size: 12px;
+	}
+	.arrow a {
+		font-size: 12px;
+	}
+	.for_parents {
+		padding-top: 14px;
+	}
+	.for_what {
+		width: 100%;
+		font-size: 18px;
+	}
+	.wrapper_grid {
+		grid-template-rows: 91px 45px 90px;
+		grid-template-columns: 0px 320px;
+		font-size: 12px;
+	}
+	.last a {
+		font-size: 12px;
+	}
+	.slider {
+		height: 200px;
+	}
+	.slider_one img,
+	.slider_two img {
+		height: 95%;
+		width: 95%;
+	}
+}
+
+/*-----------------------------640px-------------------------*/
+
+@media(max-width:640px) {
+
+	header {
+		height: 33px;
+		font-size: 10px;
+	}
+	menu a {
+		font-size: 10px;
+	}
+	.call,
+	.without {
+		height: 33px;
+	}
+	.home_staff {
+		width: 15%;
+	}
+	.children_staff {
+		width: 18%;
+	}
+	.about_us {
+		width: 9%;
+	}
+	.vacanes,
+	.contact {
+		width: 12%;
+	}
+	.for_children a {
+		font-size: 12px;
+		border-left: 3px solid $r;
+	}
+	.nurs {
+		font-size: 10px;
+	}
+	.slider_one img {
+		height: 100%;
+		width: 100%;
+		padding-top: 10px;
+	}
+	.lets a {
+		height: 19px;
+		width: 45%;
+		font-size: 10px;
+		padding-left: 0;
+	}
+	.for_parents a {
+		font-size: 12px;
+	}
+	.why {
+		padding-top: 25px;
+	}
+	.question {
+		font-size: 14px;
+	}
+	.for_what {
+		height: 485px;
+		width: 100%;
+		font-size: 16px;
+	}
+	.wrapper_grid {
+		grid-template-rows: 155px 86px 120px;
+		grid-template-columns: 0px 185px;
+		font-size: 12px;
+	}
+	.last a {
+		width: 71%;
+		padding-left: 0;
+	}
+	.why {
+		width: 41%;
+	}
+}
+
+/*-----------------------------480px-------------------------*/
+
+@media(max-width:480px) {
+
+
+	header {
+		font-size: 8px;
+	}
+	.call {
+		width: 66%;
+	}
+	menu a {
+		font-size: 8px;
+	}
+	.home_staff {
+		width: 17%;
+	}
+	.children_staff {
+		width: 15%;
+	}
+	.contact,
+	.reviews {
+		width: 12%;
+	}
+	.interesting {
+		width: 18%;
+	}
+	.vacanes {
+		width: 13%;
+	}
+	.for_children {
+		width: 100%;
+		padding-top: 9px;
+	}
+	.for_children a {
+		font-size: 16px;
+	}
+	.nurs {
+		height: 55px;
+		width: 80%;
+		font-size: 12px;
+	}
+	.personal {
+		width: 100%;
+	}
+	.lets,
+	.last {
+		height: 25px;
+		width: 60%;
+	}
+	.lets a,
+	.last a {
+		padding-left: 14%;
+	}
+	.arrow a {
+		font-size: 8px;
+	}
+	.know_more {
+		width: 48%;
+	}
+	.parents_children {
+		width: 100%;
+	}
+	.for_parents {
+		height: 35px;
+		padding-top: 10px;
+	}
+	.for_parents a {
+		font-size: 16px;
+	}
+	.question {
+		font-size: 12px;
+	}
+	.for_what {
+		height: 447px;
+		font-size: 12px;
+	}
+	.why {
+		width: 100%;
+		padding-top: 15px;
+	}
+	.wrapper_grid {
+		height: 400px;
+		grid-template-columns: 0px 260px;
+		font-size: 12px;
+	}
+	.last {
+		padding-left: 5%;
+	}
+	.slider {
+		height: 287px;
+	}
+	.slider_one {
+		width: 100%;
+	}
+	.slider_one img,
+		{
+		height: 100%;
+		width: 100%;
+	}
+	.slider_two img {
+		height: 85%;
+		width: 85%;
+	}
+}
+
+/*-----------------------------320px-------------------------*/
+
+@media(max-width:320px) {
+
+	header {
+		font-size: 8px;
+	}
+	.call {
+		width: 54%;
+	}
+	.without {
+		width: 38%;
+	}
+	menu a {
+		height: 20px;
+		font-size: 6px;
+	}
+	.slider_one {
+		display: none;
+	}
+	.personal,
+	.parents_children {
+		width: 100%;
+	}
+	.for_children {
+		height: 25px;
+	}
+	.nurs {
+		height: 80px;
+		font-size: 11px;
+		text-align: justify;
+	}
+	.lets {
+		padding-left: 18%;
+	}
+	.lets a {
+		width: 59%;
+	}
+	.for_parents {
+		height: 25px;
+	}
+	.wrapper_grid img {
+		height: 25%;
+		width: 50%;
+	}
+	.for_what {
+		height: 300px;
+	}
+	.wrapper_grid {
+		grid-template-rows: 90px 45px 50px;
+		grid-template-columns: 0px 222px;
+		font-size: 10px;
+	}
+	.last a {
+		width: 84%;
+		padding-left: 18%;
+		padding-top: 6px;
+	}
+	.slider_two img {
+		display: none;
+	}
+}
